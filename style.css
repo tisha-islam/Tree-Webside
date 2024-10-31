@@ -1,0 +1,53 @@
+.titlearea {
+    padding: 20px 0;
+}
+.titlearea h3{
+    font-size: 20px;
+    color: #f0680e;
+}
+.titlearea h2{
+    font-size: 50px;
+}
+.titlearea h3,h2{
+    text-align: center;
+}
+.projects_img{
+    width: 400px;
+    height: 500px;
+   
+   
+    overflow: hidden;
+}
+.projects_img img{
+    width: 100%;
+}
+.projects_img img:hover{
+    animation-name: scroll;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+}
+.projects{
+    border:10px solid #16161628;
+}
+.each_projrcts h3{
+    text-align: center;
+}
+
+@keyframes scroll {
+    from{
+        transform: translatey(0px);
+    }
+    to{
+        transform: translateY(-70%);
+    }
+}
+.Portfolio_area{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+}
+.image:hover img{
+    transform: scale(1.1);}
+
+

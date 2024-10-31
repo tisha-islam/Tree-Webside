@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.13/dist/full.min.css" rel="stylesheet" type="text/css" />
+
+<link rel="stylesheet" href="./style.css">
+<script src="https://cdn.tailwindcss.com"></script>
+<link href="./libray/Aos/aos.css" rel="stylesheet">
+</head>
+<body >
+    <!-- navber -->
+     <section class="md:w-[1300px] w-full mx-auto ">
+    <div class="navbar bg-base-100">
+        <div class="navbar-start">
+          <div class="dropdown">
+            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4 6h16M4 12h8m-8 6h16" />
+              </svg>
+            </div>
+            <ul
+              tabindex="0"
+              class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+              <li><a>Item 1</a></li>
+              <li>
+                <a>Parent</a>
+                <ul class="p-2">
+                  <li><a>Submenu 1</a></li>
+                  <li><a>Submenu 2</a></li>
+                </ul>
+              </li>
+              <li><a>Item 3</a></li>
+            </ul>
+          </div>
+         <img class="h-[90px] w-[150px]" src="./photo/logo.png" alt="">
+        </div>
+        <div class="navbar-center hidden lg:flex">
+          <ul class="menu menu-horizontal px-1">
+            <li><a href="./index.html">HOME</a></li>
+            <li><a>ABOUT US</a></li>
+            <li>
+              <details>
+                <summary>PAGES</summary>
+                <ul class="p-2 z-[2]">
+                  <li><a href="./top.html">Tops</a></li>
+                  <li><a href="./top.html">Seeds</a></li>
+                  <li><a href="./cut.html">Tools</a></li>
+                </ul>
+              </details>
+            </li>
+         
+          </ul>
+        </div>
+        <div class="navbar-end">
+          <a class="btn bg-[green] text-[white]">Button</a>
+        </div>
+      </div>
+    </section>
+      <!-- hero area -->
+    <section class="flex justify-between  flex-wrap md:flex-nowrap md:w-[1300px] mx-auto md:mt-[60px]">
+        <div  class="md:w-[900px] md:mt-[100px] " >
+            <h1 class="md:text-[80px] text-[40px] leading-[80px] font-bold">Think green and grow bonsai</h1>
+            <p  class="text-[20px] mt-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos architecto itaque mollitia in, voluptates quisquam, laborum quos soluta, nulla dicta modi? Amet reiciendis doloremque consectetur perspiciatis ratione maiores esse quasi.</p>
+        </div>
+        <div>
+            <img  src="./photo/bonsai-pine-tree-2021-08-26-17-53-06-utc-1.png" alt="">
+        </div>
+    </section>
+    <section class="grid grid-cols-1 md:grid-cols-4 ">
+      <div class="card bg-base-100 w-96 ">
+        <figure class="px-10 pt-10">
+          <img
+            src="./photo/garden-shears_hires.png"
+            alt=""
+            class="rounded-xl w-[100px]" />
+        </figure>
+        <div class="card-body items-center text-center">
+          <h2 class="card-title">Clipping Technique</h2>
+          <div class="card-actions">
+            <button class=" text-[green]" >Learn More</button>
+          </div>
+        </div>
+      </div>
+      <div class="card bg-base-100 w-96 ">
+        <figure class="px-10 pt-10">
+          <img 
+            src="./photo/garden-gloves_hires-copy.png"
+            alt=""
+            class="rounded-xl w-[100px]" />
+        </figure>
+        <div class="card-body items-center text-center">
+          <h2 class="card-title">Care Manual!</h2>
+          <div class="card-actions">
+            <button class=" text-[green]">Learn More</button>
+          </div>
+        </div>
+      </div>
+      <div class="card bg-base-100 w-96 ">
+        <figure class="px-10 pt-10">
+          <img
+            src="./photo/potted-plant_hires.png"
+            alt=""
+            class="rounded-xl w-[100px]" />
+        </figure>
+        <div class="card-body items-center text-center">
+          <h2 class="card-title">Bonsai Potting!</h2>
+          <div class="card-actions">
+            <button class=" text-[green]">Learn More</button>
+          </div>
+        </div>
+      </div>
+      <div class="card bg-base-100 w-96 ">
+        <figure class="px-10 pt-10">
+          <img
+            src="./photo/watering_hires.png"
+            alt=""
+            class="rounded-xl w-[100px]" />
+        </figure>
+        <div class="card-body items-center text-center">
+          <h2 class="card-title">Substrate Type</h2>
+          <div class="card-actions">
+            <button class=" text-[green]">Learn More</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- <section class="md:w-[1300px] md:h-[450px] md:block hidden bg-red-100 mt-[50px] mb-[50px] mx-auto ">
+      <article class="gallery mt-[120px]  md:w-[600px] w-[300px] mx-auto">
+        <img src="./photo/download (1).jpg" alt="guitar player at concert" />
+        <img src="./photo/download (2).jpg" alt="duo singing" />
+        <img src="./photo/download.jpg" alt="crowd cheering" />
+        <img src="./photo/images (1).jpg" alt="singer performing" />
+        <img src="./photo/images (2).jpg" alt="singer fistbumping crowd" />
+        <img src="./photo/images.jpg" alt="man with a guitar singing" />
+        <img src="./photo/images (3).jpg" alt="crowd looking at a lighted stage" />
+        <img src="./photo/images (4).jpg" alt="woman singing on stage" />
+      </article>
+    </section> -->
+<!-- 
+    What is Bonsai -->
+    <section class="flex justify-between flex-wrap md:flex-nowrap md:w-[1300px] mx-auto gap-[70px]">
+      <div><img class="w-[600px] h-[500px]" src="./photo/making-of-bonsai-trees-handmade-accessories-wire-2022-11-14-09-04-40-utc-1-copy.jpg" alt=""></div>
+      <div class="w-[600px]">
+        <h2 class="card-title text-[50px] mt-[60px]">What is Bonsai?</h1>
+        <p class="mt-[20px]">Bonsai is the art of growing miniature trees in containers, designed to replicate the appearance of full-sized trees. The practice originated in China and was later refined in Japan, where it became a popular cultural art form. Bonsai involves careful cultivation techniques, including pruning, wiring, and shaping, to maintain the small size and aesthetic qualities of the tree while ensuring its health. Different species of trees can be used for bonsai, and the process requires patience and skill, as the trees can take many years to develop their desired form. Bonsai is not just about the tree itself but also about the overall presentation, including the pot and any accompanying elements like rocks or moss.
+        </p>
+        <button class="btn bg-[green] text-[white] md:mt-[30px]">Learn more</button>
+      </div>
+    </section>
+
+    <!-- Who We are -->
+    <section class="flex justify-between flex-wrap md:flex-nowrap md:w-[1300px] mx-auto gap-[100px] mt-[60px]">
+      <div class="w-[700px] mt-[50px]">
+        <h1 class="text-[50px] font-bold">Who We are</h1>
+        <p class="text-[17px]">At BONSAI, we are passionate bonsai enthusiasts dedicated to the ancient and delicate art of cultivating miniature trees. With a deep respect for tradition and an eye for innovation, we help people explore the beauty of bonsai through education, workshops, and curated collections of bonsai trees and tools.
+
+          Our mission is to share the meditative practice of bonsai with people of all skill levels, from beginners to seasoned horticulturists. We believe in fostering a community where the love for nature, creativity, and patience come together in this timeless art form. Whether you are looking to start your bonsai journey or refine your techniques, we provide the expertise, tools, and inspiration to help you succeed.</p>
+      </div>
+      <div><img class="w-[500px]" src="./photo/hobby-bonsai-a-man-is-watering-a-small-tree-ja-2022-11-10-18-52-23-utc-copy0.jpg" alt=""></div>
+
+    </section>
+    <!-- Popular Bonsai Tree Species -->
+     <section>
+      <div><h1 class="text-[60px] text-center font-bold">Popular Bonsai Tree Species</h1></div>
+      <div class="grid grid-cols-1 md:grid-cols-3 md:w-[1300px] mx-auto">
+        <div class="card bg-base-100 w-96 shadow-xl image">
+          <figure class="px-10 pt-10">
+            <img
+              src="./photo/tree1.jpg"
+              alt="Shoes"
+              class="rounded-xl" />
+          </figure>
+          <div class="card-body items-center text-center">
+            <h2 class="card-title">Chinese Elm</h2>
+            <p>Ulmus Parviflora</p>
+           
+          </div>
+        </div>
+        <div class="card bg-base-100 w-96 shadow-xl image ">
+          <figure class="px-10 pt-10">
+            <img
+              src="./photo/tree2.jpg"
+              alt="Shoes"
+              class="rounded-xl" />
+          </figure>
+          <div class="card-body items-center text-center">
+            <h2 class="card-title">Needle Pine</h2>
+            <p>Pinus Parviflora</p>
+            
+          </div>
+        </div>
+        <div class="card bg-base-100 w-96 shadow-xl image">
+          <figure class="px-10 pt-10">
+            <img
+              src="./photo/tree3.jpg"
+              alt="Shoes"
+              class="rounded-xl" />
+          </figure>
+          <div class="card-body items-center text-center">
+            <h2 class="card-title">Pinus Parviflora</h2>
+            <p>Pinus Thunbergii</p>
+          
+          </div>
+        </div>
+      </div>
+     </section>
+ 
+
+    <section class="md:w-[1300px] mx-auto md:mt-[80px]">
+      <div class="card lg:card-side bg-base-100 shadow-xl">
+        <iframe width="853" height="380" class="autoplay" src="https://www.youtube.com/embed/COWIGUwS8u0" title="Bonsai trees for Beginners" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <div class="card-body">
+          <h2 class="card-title text-[50px]">Our Bonsai Course!</h2>
+          <p class="mt-[30px]">Aenean finibus risus mauris, sit amet ullamcorper nulla vestibulum quis. Duis aliquam vehicula ipsum egestas venenatis. Nam at faucibus enim.</p>
+          <div class="card-actions justify-strat">
+            <button class="btn bg-[green] text-[white]">Join course</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Feel the fantastic bonsai -->
+    <section class="grid grid-cols-1 md:grid-cols-3 md:w-[1300px] mx-auto md:mt-[80px]">
+      <div class="card bg-base-100 w-96 shadow-xl image">
+        <figure class="px-10 pt-10 hover overflow-hidden display-block">
+          <img
+            src="./photo/deciduous-bonsai-with-buds-and-thick-trunk-in-a-po-2022-11-14-08-29-05-utc-copy-1024x683.jpg"
+            alt="Shoes"
+            class="rounded-xl absolate left-[-200px] " />
+           
+        </figure>
+        <div class="card-body items-center text-center">
+          <h2 class="card-title">Feel the fantastic bonsai</h2>
+          <p>If a dog chews shoes whose shoes does he choose?</p>
+          <div class="card-actions">
+            <button class="text-[green]">Read More</button>
+          </div>
+        </div>
+      </div>
+      <div class="card bg-base-100 w-96 shadow-xl image">
+        <figure class="px-10 pt-10">
+          <img
+            src="./photo/japanese-juniper-bonsai-tree-on-hand-background-i-2022-11-14-10-03-48-utc-copy-1024x683.jpg"
+            alt="Shoes"
+            class="rounded-xl" />
+        </figure>
+        <div class="card-body items-center text-center">
+          <h2 class="card-title">Grow more and be patient</h2>
+          <p>If a dog chews shoes whose shoes does he choose?</p>
+          <div class="card-actions">
+            <button class="text-[green]">Read More</button>
+          </div>
+        </div>
+      </div>
+      <div class="card bg-base-100 w-96 shadow-xl image">
+        <figure class="px-10 pt-10">
+          <img
+            src="./photo/making-of-bonsai-trees-handmade-accessories-wire-2022-11-14-09-04-56-utc-copy-1024x683.jpg"
+            alt="Shoes"
+            class="rounded-xl" />
+        </figure>
+        <div class="card-body items-center text-center">
+          <h2 class="card-title">Give your helping hands</h2>
+          <p>If a dog chews shoes whose shoes does he choose?</p>
+          <div class="card-actions">
+            <button class="text-[green]">Read More</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- latest_work -->
+    <section class="latest_work mt-[50px]">
+      <div class="titlearea">
+          <!-- <h3>Latest works</h3> -->
+          <h2>Our Others Product</h2>
+      </div>
+      <div class="Portfolio_area">
+          <div class="projects">
+            <a href="./top.html">
+              <div class="projects_img">
+                  <img src="./photo/sss 3.png"  alt="" >
+                  
+              </div>
+              <div class="each_projrcts">
+                  <h2>project name</h2>
+                  <h3><a href="#">live link</a></h3>
+              </div>
+              </a>
+          </div>
+          <div class="projects">
+            <a href="./sheed.html">
+              <div class="projects_img">
+                  <img src="./photo/sss 2.png" alt="">
+              </div>
+              <div class="each_projrcts">
+                  <h2>project name</h2>
+                  <h3><a href="https://tisha-islam.github.io/restaurant/">live link</a></h3>
+              </div>
+            </a>
+          </div>
+          <div class="projects">
+            <a href="./cut.html">
+              <div class="projects_img">
+                  <img src="./photo/sss cut.png" alt="">
+              </div>
+              <div class="each_projrcts">
+                  <h2>project name</h2>
+                  <h3><a href="#">live link</a></h3>
+              </div>
+              </a>
+          </div>
+      </div>
+    </section>
+
+    
+
+ 
+    <section>
+      <div>
+        <marquee class="text-[40px] mt-[30px] font-italic" behavior="" direction="">Bonsai is the art of growing miniature trees in containers, designed to replicate the appearance of full-sized trees. The practice originated in China and was later refined in Japan, where it became a popular cultural art form. Bonsai involves careful cultivation techniques, including pruning, wiring, and shaping, to maintain the small size and aesthetic qualities of the tree while ensuring its health. Different species of trees can be used for bonsai, and the process requires patience and skill, as the trees can take many years to develop their desired form. Bonsai is not just about the tree itself but also about the overall presentation, including the pot and any accompanying elements like rocks or moss.</marquee>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="footer bg-base-200 text-base-content p-10 bg-[black] text-[white] md:mt-[80px]">
+      <aside>
+       <img class="h-[70px] w-[150px] " src="./photo/LOGO2-1-1024x270.png" alt="">
+        <p>
+          ACME Industries Ltd.
+          <br />
+          Providing reliable tech since 1992
+        </p>
+      </aside>
+      <nav>
+        <h6 class="footer-title">Services</h6>
+        <a class="link link-hover">Branding</a>
+        <a class="link link-hover">Design</a>
+        <a class="link link-hover">Marketing</a>
+        <a class="link link-hover">Advertisement</a>
+      </nav>
+      <nav>
+        <h6 class="footer-title">Further Links</h6>
+        <a class="link link-hover">Term & Condition</a>
+        <a class="link link-hover">News</a>
+      </nav>
+      <nav>
+        <h6 class="footer-title">Legal</h6>
+        <a class="link link-hover">Terms of use</a>
+        <a class="link link-hover">Privacy policy</a>
+        <a class="link link-hover">Cookie policy</a>
+      </nav>
+    </footer>
+   
+   
+</body>
+</html>
